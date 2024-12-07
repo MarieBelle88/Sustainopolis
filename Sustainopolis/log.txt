@@ -1,29 +1,29 @@
-2024-12-07 23:24:50 UTC
+2024-12-07 23:27:03 UTC
 macOS-10.16-x86_64-i386-64bit
 Ren'Py 8.3.3.24111502
 
-Early init took 0.10s
-Loading error handling took 0.07s
-Loading script took 0.50s
-Loading save slot metadata took 0.06s
+Early init took 0.15s
+Loading error handling took 0.08s
+Loading script took 0.33s
+Loading save slot metadata took 0.09s
 Loading persistent took 0.00s
 Running init code took 0.11s
-Loading analysis data took 0.04s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.05s
+Initial gc took 0.06s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.06s
 Build styles took 0.01s
 Load screen analysis took 0.06s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.13s
+Prepare screens took 0.18s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.04s
+Save bytecode. took 0.00s
