@@ -1,74 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {player_name} in '{player_name}, welcome to Sustainopolis!'.:
-  File "game/script.rpy", line 41, in script
-    Female "{player_name}, welcome to Sustainopolis!"
-Exception: Unknown text tag 'player_name'
+While running game code:
+  File "game/script.rpy", line 87, in script
+    jump social_questions
+ScriptError: could not find label 'social_questions'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 41, in script
-    Female "{player_name}, welcome to Sustainopolis!"
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 2573, in execute
-    Say.execute(self)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/sayexports.py", line 132, in say
-    who(what, *args, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/character.py", line 1455, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "/Applications/renpy-8.3.3-sdk/renpy/character.py", line 1106, in do_display
-    display_say(who,
-  File "/Applications/renpy-8.3.3-sdk/renpy/character.py", line 803, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2879, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 1381, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 486, in renpy.display.render.render_screen
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 754, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 1457, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "/Applications/renpy-8.3.3-sdk/renpy/text/text.py", line 2604, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "/Applications/renpy-8.3.3-sdk/renpy/text/text.py", line 733, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "/Applications/renpy-8.3.3-sdk/renpy/text/text.py", line 1530, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag 'player_name'
+  File "game/script.rpy", line 87, in script
+    jump social_questions
+  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Applications/renpy-8.3.3-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'social_questions'.
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.3.3.24111502
 Sustainopolis 1.0
-Wed Dec  4 21:27:35 2024
+Sat Dec  7 21:07:45 2024

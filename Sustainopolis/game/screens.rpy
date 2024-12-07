@@ -209,8 +209,12 @@ screen choice(items):
     style_prefix "choice"
 
     vbox:
+        xalign 0.5  # Horizontally center the choices
+        yalign 0.75  # Position the choices towards the bottom
+
         for i in items:
             textbutton i.caption action i.action
+
 
 
 style choice_vbox is vbox

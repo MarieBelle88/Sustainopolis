@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 30: show statement expects a non-empty block.
-    show bg park_resized with dissolve:
-                                       ^
+File "game/script.rpy", line 256: unmatched ')'
+    update_scores(env=12, econ=-8, social=8))
+                                             ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Thu Dec  5 00:07:11 2024
+Sun Dec  8 00:15:34 2024
