@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 256: unmatched ')'
-    update_scores(env=12, econ=-8, social=8))
-                                             ^
+File "game/screens.rpy", line 1649: expected statement.
+    frame:
+         ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Sun Dec  8 00:15:34 2024
+Mon Dec  9 10:43:22 2024

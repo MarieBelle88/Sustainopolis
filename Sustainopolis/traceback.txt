@@ -1,22 +1,66 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 87, in script
-    jump social_questions
-ScriptError: could not find label 'social_questions'.
+  File "game/script.rpy", line 136, in script
+    menu:
+  File "game/screens.rpy", line 1625, in execute
+    screen choice(items):
+  File "game/screens.rpy", line 1625, in execute
+    screen choice(items):
+  File "game/screens.rpy", line 1628, in execute
+    frame:
+  File "game/screens.rpy", line 1647, in execute
+    vbar:
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 87, in script
-    jump social_questions
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1699, in execute
-    rv = renpy.game.script.lookup(target)
-  File "/Applications/renpy-8.3.3-sdk/renpy/script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'social_questions'.
+  File "game/script.rpy", line 136, in script
+    menu:
+  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
+    rv = renpy.store.menu(new_items)
+  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
+    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
+  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 480, in visit_all
+    callback(self)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 491, in per_interact
+    self.update()
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 1625, in execute
+    screen choice(items):
+  File "game/screens.rpy", line 1625, in execute
+    screen choice(items):
+  File "game/screens.rpy", line 1628, in execute
+    frame:
+  File "game/screens.rpy", line 1647, in execute
+    vbar:
+  File "/Applications/renpy-8.3.3-sdk/renpy/sl2/sldisplayables.py", line 297, in sl2vbar
+    return renpy.display.behavior.Bar(range, value, width, height, vertical=True, **properties)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 2250, in __init__
+    adjustment = Adjustment(range, value, step=step, page=page, changed=changed)
+  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 1978, in __init__
+    self._value = type(range)(value) # type: ignore
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.3.3.24111502
 Sustainopolis 1.0
-Sat Dec  7 21:07:45 2024
+Mon Dec  9 10:45:39 2024
