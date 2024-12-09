@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1649: expected statement.
-    frame:
-         ^
+File "game/screens.rpy", line 564: Line is indented, but the preceding add statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    xanchor 0.5 yanchor 0.5
+    ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Mon Dec  9 10:43:22 2024
+Mon Dec  9 15:30:56 2024

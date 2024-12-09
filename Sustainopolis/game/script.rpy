@@ -12,6 +12,9 @@ image bg city_social_env = Transform("city_social_env.jpg", size=(1280, 600), xa
 image bg city_neutral = Transform("city_neutral.jpg", size=(1280, 600), xalign=0.5, yalign=1.0)
 image bg city_neutral = Transform("city_neutral.jpg", size=(1280, 600), xalign=0.5, yalign=1.0)
 
+init:
+    # Define the available languages
+    $ languages = ["English", "Deutsch"]
 
 # Initialize scores
 default env_sustainability = 50
@@ -70,6 +73,7 @@ init python:
         econ_prosperity = 50
         social_equity = 50
         reaction_text = ""  # Reset reaction message
+        
 
 label start:
     # Reset scores at the start
@@ -77,7 +81,9 @@ label start:
     
     # Play intro music
     play music intro_music
+
     
+        
     # Show introduction screen
     "Welcome to Sustainopolis, a city full of promise and potential. As its leader, you face the challenge of building a thriving, sustainable future while balancing competing priorities. Every decision you make will shape the city’s economy, environment, and the lives of its citizens."
     #"Created by the Sustainopolis Team. In partnership with Global Goals"

@@ -1,19 +1,19 @@
-2024-12-09 08:46:53 UTC
+2024-12-09 13:22:31 UTC
 macOS-10.16-x86_64-i386-64bit
 Ren'Py 8.3.3.24111502
 
-Early init took 0.10s
-Loading error handling took 0.08s
-Loading script took 0.42s
-Loading save slot metadata took 0.07s
+Early init took 0.09s
+Loading error handling took 0.06s
+Loading script took 0.49s
+Loading save slot metadata took 0.06s
 Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.03s
+Running init code took 0.09s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.05s
@@ -23,13 +23,13 @@ Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
+Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.02s
 Save bytecode. took 0.04s
 Running _start took 0.00s
-Interface start took 1.27s
+Interface start took 0.52s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -43,33 +43,40 @@ Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
 Resetting cache.
-Early init took 34.51s
-Loading error handling took 0.05s
-Loading script took 0.42s
-Loading save slot metadata took 0.04s
+Early init took 81.88s
+Loading error handling took 0.06s
+Loading script took 0.43s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.05s
+Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.06s
+Initial gc took 0.09s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.03s
 Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.13s
 
@@ -86,18 +93,18 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 94.38s
-Loading error handling took 0.04s
-Loading script took 0.40s
-Loading save slot metadata took 0.05s
+Early init took 97.39s
+Loading error handling took 0.03s
+Loading script took 0.38s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
+Running init code took 0.07s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
+Dump and make backups took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.06s
@@ -110,8 +117,8 @@ Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.12s
 
@@ -127,34 +134,49 @@ Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
 Resetting cache.
-Early init took 200.04s
-Loading error handling took 0.04s
-Loading script took 0.41s
+Early init took 2881.09s
+Loading error handling took 0.05s
+Loading script took 0.53s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 550: expected statement.
+    use game_menu(_("About"), scroll="viewport"):
+                 ^
+DPI scale factor: 1.000000
+Interface start took 0.32s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2905.49s
+Loading error handling took 0.03s
+Loading script took 0.42s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
+
+File "game/screens.rpy", line 566: the style keyword argument was not given a value.
+    label "Sustainopolis" style="about_title"
+                               ^
 DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
 Interface start took 0.15s
 
 Initializing gl2 renderer:
@@ -169,631 +191,166 @@ Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 98, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 1376, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 1573, in style_functions.padding_property
-  File "include/style_common.pxi", line 30, in style_functions.index_0
-TypeError: 'int' object is not subscriptable
-
-While processing the padding property of anonymous style:
-  File "game/script.rpy", line 98, in script
-    menu:
-TypeError: 'int' object is not subscriptable
 Resetting cache.
-Early init took 323.82s
-Loading error handling took 0.05s
-Loading script took 0.20s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 98, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 1376, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 1573, in style_functions.padding_property
-  File "include/style_common.pxi", line 30, in style_functions.index_0
-TypeError: 'int' object is not subscriptable
-
-While processing the padding property of anonymous style:
-  File "game/script.rpy", line 98, in script
-    menu:
-TypeError: 'int' object is not subscriptable
-Resetting cache.
-Early init took 346.88s
+Early init took 2935.77s
 Loading error handling took 0.04s
-Loading script took 0.41s
-Loading save slot metadata took 0.11s
-Loading persistent took 0.00s
-Running init code took 0.09s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 98, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 1376, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 1573, in style_functions.padding_property
-  File "include/style_common.pxi", line 30, in style_functions.index_0
-TypeError: 'int' object is not subscriptable
-
-While processing the padding property of anonymous style:
-  File "game/script.rpy", line 98, in script
-    menu:
-TypeError: 'int' object is not subscriptable
-Resetting cache.
-Early init took 372.97s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.17s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 402.24s
-Loading error handling took 0.04s
-Loading script took 0.39s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 419.42s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 428.91s
-Loading error handling took 0.03s
-Loading script took 0.37s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 437.60s
-Loading error handling took 0.03s
-Loading script took 0.17s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 450.53s
-Loading error handling took 0.03s
-Loading script took 0.30s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 98, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 1376, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 1573, in style_functions.padding_property
-  File "include/style_common.pxi", line 30, in style_functions.index_0
-TypeError: 'int' object is not subscriptable
-
-While processing the padding property of anonymous style:
-  File "game/script.rpy", line 98, in script
-    menu:
-TypeError: 'int' object is not subscriptable
-Resetting cache.
-Early init took 493.39s
-Loading error handling took 0.04s
-Loading script took 0.19s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.13s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Dump and make backups took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.07s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.14s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 98, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 485, in visit_all
-    self.child.visit_all(callback, seen=None)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/layout.py", line 1376, in visit
-    self.style._visit_window(rv.append)
-  File "style.pyx", line 541, in renpy.style.StyleCore._visit_window
-  File "style.pyx", line 528, in renpy.style.StyleCore._get_unoffset
-  File "style.pyx", line 493, in renpy.style.StyleCore._get
-  File "style.pyx", line 717, in renpy.style.build_style
-  File "style.pyx", line 714, in renpy.style.build_style
-  File "gen3-static/style_functions.pyx", line 1573, in style_functions.padding_property
-  File "include/style_common.pxi", line 30, in style_functions.index_0
-TypeError: 'int' object is not subscriptable
-
-While processing the padding property of anonymous style:
-  File "game/script.rpy", line 98, in script
-    menu:
-TypeError: 'int' object is not subscriptable
-Resetting cache.
-Early init took 501.40s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1632: 'padding' is not a keyword argument or valid child of the vbox statement.
-    padding (20, 20, 20, 20)  
-           ^
-DPI scale factor: 1.000000
-Interface start took 0.17s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 555.34s
-Loading error handling took 0.04s
-Loading script took 0.32s
+Loading script took 0.33s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 
-File "game/screens.rpy", line 1632: 'padding' is not a keyword argument or valid child of the vbox statement.
-    padding (20, 20, 20, 20)  
-           ^
+File "game/screens.rpy", line 569: the style keyword argument was not given a value.
+    textbutton _("Play the Game on Itch.io") action OpenURL("https://mariebelle.itch.io/sustainopolis") style="about_button"
+                                                                                                             ^
+DPI scale factor: 1.000000
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2936.98s
+Loading error handling took 0.03s
+Loading script took 0.26s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 569: the style keyword argument was not given a value.
+    textbutton _("Play the Game on Itch.io") action OpenURL("https://mariebelle.itch.io/sustainopolis") style="about_button"
+                                                                                                             ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2944.77s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata took 0.13s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 566: the style keyword argument was not given a value.
+    label "Sustainopolis" style="about_title"
+                               ^
+DPI scale factor: 1.000000
+Interface start took 0.30s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2978.23s
+Loading error handling took 0.06s
+Loading script took 0.51s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 566: the style keyword argument was not given a value.
+    label "Sustainopolis" style="about_title"
+                               ^
+DPI scale factor: 1.000000
+Interface start took 0.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3132.11s
+Loading error handling took 0.04s
+Loading script took 0.33s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 567: 'size' is not a keyword argument or valid child of the label statement.
+    size 40
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3153.31s
+Loading error handling took 0.03s
+Loading script took 0.33s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 567: 'size' is not a keyword argument or valid child of the label statement.
+    size 40
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3154.93s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 567: 'size' is not a keyword argument or valid child of the label statement.
+    size 40
+        ^
 DPI scale factor: 1.000000
 Interface start took 0.14s
 
@@ -810,15 +367,494 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 575.11s
-Loading error handling took 0.03s
-Loading script took 0.32s
-Loading save slot metadata took 0.03s
+Early init took 3176.20s
+Loading error handling took 0.04s
+Loading script took 0.40s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+
+File "game/screens.rpy", line 567: 'bold' is not a keyword argument or valid child of the label statement.
+    bold True
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3190.03s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 566: label expects a non-empty block.
+    label "Sustainopolis":
+                          ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3199.28s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 571: the style keyword argument was not given a value.
+    textbutton _("Play the Game on Itch.io") action OpenURL("https://mariebelle.itch.io/sustainopolis") style="about_button"
+                                                                                                             ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3214.65s
+Loading error handling took 0.04s
+Loading script took 0.40s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 566: expected a keyword argument or child statement.
+    "Sustainopolis"
+    ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3225.36s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 567: 'bold' is not a keyword argument or valid child of the label statement.
+    bold True
+        ^
+DPI scale factor: 1.000000
+Interface start took 0.17s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3329.61s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 566: the style keyword argument was not given a value.
+    text "Sustainopolis" style="about_title" xalign 0.5 yalign 0.5
+                              ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3343.34s
+Loading error handling took 0.03s
+Loading script took 0.33s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 569: the style keyword argument was not given a value.
+    textbutton _("Play the Game on Itch.io") action OpenURL("https://mariebelle.itch.io/sustainopolis") style="about_button"
+                                                                                                             ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3361.59s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 572: the style keyword argument was not given a value.
+    text _("Sustainopolis is an interactive 'choose your own adventure' style game designed to educate players on the United Nations’ 17 Sustainable Development Goals (SDGs).") style="about_text"
+                                                                                                                                                                                      ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3385.85s
+Loading error handling took 0.04s
+Loading script took 0.34s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 572: the style keyword argument was not given a value.
+    text _("Sustainopolis is an interactive 'choose your own adventure' style game designed to educate players on the United Nations’ 17 Sustainable Development Goals (SDGs).") style="about_text"
+                                                                                                                                                                                      ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3396.66s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 572: the style keyword argument was not given a value.
+    text _("Sustainopolis is an interactive 'choose your own adventure' style game designed to educate players on the United Nations’ 17 Sustainable Development Goals (SDGs).") style="about_text"
+                                                                                                                                                                                      ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3405.92s
+Loading error handling took 0.04s
+Loading script took 0.25s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 572: the style keyword argument was not given a value.
+    text _("Sustainopolis is an interactive 'choose your own adventure' style game designed to educate players on the United Nations’ 17 Sustainable Development Goals (SDGs).") style="about_text"
+                                                                                                                                                                                      ^
+DPI scale factor: 1.000000
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3446.81s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/screens.rpy", line 593: expected a keyword argument, colon, or end of line.
+(Perhaps you left out a " at the end of the first line.)
+    text _("To clone the repository:\n\n    git clone https://github.com/MarieBelle88/Sustainopolis.git") "
+                                                                                                          ^
+    
+                # Default Ren'Py Credits
+                text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+    
+    
+    
+    
+    
+    
+    style about_label is gui_label
+    style about_label_text is gui_label_text
+    style about_text is gui_text
+    
+    style about_label_text:
+        size gui.label_text_size
+    
+    
+    ## Load and Save screens #######################################################
+    ##
+    ## These screens are responsible for letting the player save the game and load
+    ## it again. Since they share nearly everything in common, both are implemented
+    ## in terms of a third screen, file_slots.
+    ##
+    ## https://www.renpy.org/doc/html/screen_special.html#save https://
+    ## www.renpy.org/doc/html/screen_special.html#load
+    
+    screen save():
+    
+        tag menu
+    
+        use file_slots(_("Save"))
+    
+    
+    screen load():
+    
+        tag menu
+    
+        use file_slots(_("Load"))
+    
+    
+    screen file_slots(title):
+    
+        default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+    
+        use game_menu(title):
+    
+            fixed:
+    
+                ## This ensures the input will get the enter event before any of the
+                ## buttons do.
+                order_reverse True
+    
+                ## The page name, which can be edited by clicking on a button.
+                button:
+                    style "page_label"
+    
+                    key_events True
+                    xalign 0.5
+                    action page_name_value.Toggle()
+    
+                    input:
+                        style "page_label_text"
+                        value page_name_value
+    
+                ## The grid of file slots.
+                grid gui.file_slot_cols gui.file_slot_rows:
+                    style_prefix "slot"
+    
+                    xalign 0.5
+                    yalign 0.5
+    
+                    spacing gui.slot_spacing
+    
+                    for i in range(gui.file_slot_cols * gui.file_slot_rows):
+    
+                        $ slot = i + 1
+    
+                        button:
+                            action FileAction(slot)
+    
+                            has vbox
+    
+                            add FileScreenshot(slot) xalign 0.5
+    
+                            text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                                style "slot_time_text"
+    
+                            text FileSaveName(slot):
+                                style "slot_name_text"
+    
+                            key "save_delete" action FileDelete(slot)
+    
+                ## Buttons to access other pages.
+                vbox:
+                    style_prefix "page"
+    
+                    xalign 0.5
+                    yalign 1.0
+    
+                    hbox:
+                        xalign 0.5
+    
+                        spacing gui.page_spacing
+    
+                        textbutton _("<") action FilePagePrevious()
+                        key "save_page_prev" action FilePagePrevious()
+    
+                        if config.has_autosave:
+                            textbutton _("{#auto_page}A") action FilePage("auto")
+    
+                        if config.has_quicksave:
+                            textbutton _("{#quick_page}Q") action FilePage("quick")
+    
+                        ## range(1, 10) gives the numbers from 1 to 9.
+                        for page in range(1, 10):
+                            textbutton "[page]" action FilePage(page)
+    
+                        textbutton _(">") action FilePageNext()
+                        key "save_page_next" action FilePageNext()
+    
+                    if config.has_sync:
+                        if CurrentScreenName() == "save":
+                            textbutton _("Upload Sync"):
+                                action UploadSync()
+                                xalign 0.5
+                        else:
+                            textbutton _("Download Sync"):
+                                action DownloadSync()
+                                xalign 0.5
+    
+    
+    style page_label is gui_label
+    style page_label_text is gui_label_text
+    style page_button is gui_button
+    style page_button_text is gui_button_text
+    
+    style slot_button is gui_button
+    style slot_button_text is gui_button_text
+    style slot_time_text is slot_button_text
+    style slot_name_text is slot_button_text
+    
+    style page_label:
+        xpadding 75
+        ypadding 5
+    
+    style page_label_text:
+        textalign 0.5
+        layout "subtitle"
+        hover_color gui.hover_color
+    
+    style page_button:
+        properties gui.button_properties("page_button")
+    
+    style page_button_text:
+        properties gui.text_properties("page_button")
+    
+    style slot_button:
+        properties gui.button_properties("slot_button")
+    
+    style slot_button_text:
+        properties gui.text_properties("slot_button")
+    
+    
+    ## Preferences screen ##########################################################
+    ##
+    ## The preferences screen allows the player to configure the game to better suit
+    ## themselves.
+    ##
+    ## https://www.renpy.org/doc/html/screen_special.html#preferences
+    
+    screen preferences():
+    
+        tag menu
+    
+        use game_menu(_("Preferences"), scroll="viewport"):
+    
+            vbox:
+                textbutton "English" action Language(None)  # Changes to English, because that's the main/no translation language
+DPI scale factor: 1.000000
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3459.10s
+Loading error handling took 0.03s
+Loading script took 0.39s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
 Dump and make backups took 0.07s
@@ -828,16 +864,16 @@ Initial gc took 0.05s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.03s
 Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.13s
+Interface start took 0.17s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -852,222 +888,12 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2702.90s
+Early init took 3514.32s
 Loading error handling took 0.04s
-Loading script took 0.37s
+Loading script took 0.43s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2716.96s
-Loading error handling took 0.04s
-Loading script took 0.39s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2726.59s
-Loading error handling took 0.03s
-Loading script took 0.30s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2736.19s
-Loading error handling took 0.05s
-Loading script took 0.39s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2749.62s
-Loading error handling took 0.04s
-Loading script took 0.38s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2789.67s
-Loading error handling took 0.04s
-Loading script took 0.42s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.10s
+Running init code took 0.06s
 Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
@@ -1085,49 +911,7 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2799.31s
-Loading error handling took 0.04s
-Loading script took 0.38s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
+Prepare screens took 0.12s
 Save pyanalysis. took 0.02s
 Save bytecode. took 0.03s
 Running _start took 0.00s
@@ -1146,13 +930,97 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2808.97s
-Loading error handling took 0.03s
-Loading script took 0.48s
+Early init took 3655.37s
+Loading error handling took 0.04s
+Loading script took 0.45s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3764.62s
+Loading error handling took 0.04s
+Loading script took 0.44s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3796.69s
+Loading error handling took 0.04s
+Loading script took 0.39s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
+Running init code took 0.06s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
 Index archives took 0.00s
@@ -1170,7 +1038,7 @@ Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.13s
@@ -1188,12 +1056,37 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2825.98s
+Early init took 3836.30s
 Loading error handling took 0.04s
-Loading script took 0.39s
-Loading save slot metadata took 0.04s
+Loading script took 0.37s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.06s
+
+File "game/screens.rpy", line 566: 'title' is not a keyword argument or valid child of the vbox statement.
+    title "Sustainopolis" xalign 0.5 yalign 0.5
+         ^
+DPI scale factor: 1.000000
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3863.60s
+Loading error handling took 0.03s
+Loading script took 0.38s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
@@ -1202,16 +1095,225 @@ Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopoli
 Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3904.58s
+Loading error handling took 0.03s
+Loading script took 0.47s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
 Initial gc took 0.06s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.05s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3913.86s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3932.24s
+Loading error handling took 0.03s
+Loading script took 0.13s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
 Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3952.27s
+Loading error handling took 0.05s
+Loading script took 0.48s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 3958.54s
+Loading error handling took 0.03s
+Loading script took 0.44s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
 Save pyanalysis. took 0.02s
 Save bytecode. took 0.03s
 Running _start took 0.00s
@@ -1230,31 +1332,32 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3065.64s
-Loading error handling took 0.04s
-Loading script took 0.19s
+Early init took 3969.31s
+Loading error handling took 0.03s
+Loading script took 0.34s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.06s
+Running init code took 0.05s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
 Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
 Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.07s
+Initial gc took 0.06s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
 Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.13s
 
@@ -1271,17 +1374,34 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3135.77s
-Loading error handling took 0.04s
-Loading script took 0.32s
-Loading save slot metadata took 0.05s
+Early init took 3991.02s
+Loading error handling took 0.03s
+Loading script took 0.35s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1625: style property hovered_foreground is not known.
-    hovered_foreground "#ffd700"  
-                      ^
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
 DPI scale factor: 1.000000
-Interface start took 0.27s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.17s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -1296,18 +1416,102 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3146.48s
+Early init took 4000.28s
 Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.19s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4008.05s
+Loading error handling took 0.04s
+Loading script took 0.36s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4014.34s
+Loading error handling took 0.05s
 Loading script took 0.41s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.10s
+Running init code took 0.05s
 Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.07s
@@ -1317,10 +1521,10 @@ Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.03s
 Save screen analysis took 0.03s
-Prepare screens took 0.18s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.02s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.12s
@@ -1338,9 +1542,51 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3157.60s
+Early init took 4034.25s
 Loading error handling took 0.04s
-Loading script took 0.49s
+Loading script took 0.48s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4047.00s
+Loading error handling took 0.03s
+Loading script took 0.33s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.05s
@@ -1361,9 +1607,9 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.11s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.12s
 
@@ -1380,18 +1626,102 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3191.45s
-Loading error handling took 0.04s
-Loading script took 0.39s
+Early init took 4053.84s
+Loading error handling took 0.03s
+Loading script took 0.42s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.05s
+Running init code took 0.06s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4069.19s
+Loading error handling took 0.03s
+Loading script took 0.37s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.13s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4087.49s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.06s
@@ -1403,8 +1733,8 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.12s
@@ -1422,397 +1752,15 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3201.13s
-Loading error handling took 0.03s
-Loading script took 0.18s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Dump and make backups took 0.11s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.11s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.07s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.13s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.17s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3228.89s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1632: Line is indented, but the preceding style_prefix statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    grid 2 2 spacing 15:  
-    ^
-DPI scale factor: 1.000000
-Interface start took 0.16s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3245.66s
-Loading error handling took 0.03s
-Loading script took 0.23s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1630: Line is indented, but the preceding style_prefix statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    grid 2 2 spacing 15:  
-    ^
-DPI scale factor: 1.000000
-Interface start took 0.16s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3246.39s
-Loading error handling took 0.03s
-Loading script took 0.22s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1630: Line is indented, but the preceding style_prefix statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    grid 2 2 spacing 15:  
-    ^
-DPI scale factor: 1.000000
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3258.75s
+Early init took 4104.82s
 Loading error handling took 0.04s
-Loading script took 0.18s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.13s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3304.97s
-Loading error handling took 0.05s
-Loading script took 0.74s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.17s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.25s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.04s
-Save screen analysis took 0.05s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.06s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.17s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 480, in visit_all
-    callback(self)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 491, in per_interact
-    self.update()
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 697, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1629, in execute
-    frame:
-  File "game/screens.rpy", line 1647, in execute
-    vbar value YScrollValue
-  File "/Applications/renpy-8.3.3-sdk/renpy/sl2/sldisplayables.py", line 297, in sl2vbar
-    return renpy.display.behavior.Bar(range, value, width, height, vertical=True, **properties)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 2250, in __init__
-    adjustment = Adjustment(range, value, step=step, page=page, changed=changed)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 1978, in __init__
-    self._value = type(range)(value) # type: ignore
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-
-While running game code:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1629, in execute
-    frame:
-  File "game/screens.rpy", line 1647, in execute
-    vbar value YScrollValue
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-Resetting cache.
-Early init took 3325.15s
-Loading error handling took 0.04s
-Loading script took 0.38s
-Loading save slot metadata took 0.16s
-Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 480, in visit_all
-    callback(self)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 491, in per_interact
-    self.update()
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 697, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1629, in execute
-    frame:
-  File "game/screens.rpy", line 1647, in execute
-    vbar value YScrollValue
-  File "/Applications/renpy-8.3.3-sdk/renpy/sl2/sldisplayables.py", line 297, in sl2vbar
-    return renpy.display.behavior.Bar(range, value, width, height, vertical=True, **properties)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 2250, in __init__
-    adjustment = Adjustment(range, value, step=step, page=page, changed=changed)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 1978, in __init__
-    self._value = type(range)(value) # type: ignore
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-
-While running game code:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1629, in execute
-    frame:
-  File "game/screens.rpy", line 1647, in execute
-    vbar value YScrollValue
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-Resetting cache.
-Early init took 3339.15s
-Loading error handling took 0.04s
-Loading script took 0.30s
-Loading save slot metadata took 0.04s
+Loading script took 0.39s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 
-File "game/screens.rpy", line 1649: expected statement.
-    frame:
-         ^
-DPI scale factor: 1.000000
-Interface start took 0.18s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3344.17s
-Loading error handling took 0.03s
-Loading script took 0.22s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1649: expected statement.
-    frame:
-         ^
+File "game/screens.rpy", line 564: Line is indented, but the preceding add statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    xanchor 0.5 yanchor 0.5
+    ^
 DPI scale factor: 1.000000
 Interface start took 0.15s
 
@@ -1829,43 +1777,18 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3388.06s
-Loading error handling took 0.04s
-Loading script took 0.55s
-Loading save slot metadata took 0.06s
+Early init took 4112.52s
+Loading error handling took 0.05s
+Loading script took 0.40s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-
-File "game/screens.rpy", line 1649: expected statement.
-    frame:
-         ^
-DPI scale factor: 1.000000
-Interface start took 0.25s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3425.87s
-Loading error handling took 0.04s
-Loading script took 0.46s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.08s
-Loading analysis data took 0.02s
+Running init code took 0.09s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
+Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.06s
@@ -1877,8 +1800,8 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.13s
@@ -1895,306 +1818,22 @@ Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 480, in visit_all
-    callback(self)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 491, in per_interact
-    self.update()
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 697, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1636, in execute
-    frame:
-  File "game/screens.rpy", line 1654, in execute
-    vbar value YScrollValue
-  File "/Applications/renpy-8.3.3-sdk/renpy/sl2/sldisplayables.py", line 297, in sl2vbar
-    return renpy.display.behavior.Bar(range, value, width, height, vertical=True, **properties)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 2250, in __init__
-    adjustment = Adjustment(range, value, step=step, page=page, changed=changed)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 1978, in __init__
-    self._value = type(range)(value) # type: ignore
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-
-While running game code:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1626, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1636, in execute
-    frame:
-  File "game/screens.rpy", line 1654, in execute
-    vbar value YScrollValue
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
 Resetting cache.
-Early init took 3524.48s
-Loading error handling took 0.04s
-Loading script took 0.47s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 1619, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 134, in menu
-    rv = renpy.store.menu(new_items)
-  File "/Applications/renpy-8.3.3-sdk/renpy/exports/menuexports.py", line 424, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "/Applications/renpy-8.3.3-sdk/renpy/ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 480, in visit_all
-    callback(self)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/core.py", line 2745, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 491, in per_interact
-    self.update()
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/screen.py", line 697, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 1625, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1625, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1628, in execute
-    frame:
-  File "game/screens.rpy", line 1647, in execute
-    vbar:
-  File "/Applications/renpy-8.3.3-sdk/renpy/sl2/sldisplayables.py", line 297, in sl2vbar
-    return renpy.display.behavior.Bar(range, value, width, height, vertical=True, **properties)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 2250, in __init__
-    adjustment = Adjustment(range, value, step=step, page=page, changed=changed)
-  File "/Applications/renpy-8.3.3-sdk/renpy/display/behavior.py", line 1978, in __init__
-    self._value = type(range)(value) # type: ignore
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-
-While running game code:
-  File "game/script.rpy", line 136, in script
-    menu:
-  File "game/screens.rpy", line 1625, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1625, in execute
-    screen choice(items):
-  File "game/screens.rpy", line 1628, in execute
-    frame:
-  File "game/screens.rpy", line 1647, in execute
-    vbar:
-TypeError: int() argument must be a string, a bytes-like object or a number, not 'type'
-Resetting cache.
-Early init took 3609.80s
-Loading error handling took 0.04s
+Early init took 4121.82s
+Loading error handling took 0.03s
 Loading script took 0.39s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3643.71s
-Loading error handling took 0.04s
-Loading script took 0.38s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.05s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.05s
 Index archives took 0.00s
 Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
+Dump and make backups took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3651.95s
-Loading error handling took 0.03s
-Loading script took 0.31s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel Inc.'"
-Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
-Version: b'2.1 INTEL-22.5.11'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 3682.84s
-Loading error handling took 0.05s
-Loading script took 0.39s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
-Dump and make backups took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
+Initial gc took 0.09s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
@@ -2222,12 +1861,432 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 3690.90s
-Loading error handling took 0.05s
-Loading script took 0.39s
+Early init took 4131.12s
+Loading error handling took 0.03s
+Loading script took 0.53s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4143.45s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.01s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4150.13s
+Loading error handling took 0.03s
+Loading script took 0.31s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4164.19s
+Loading error handling took 0.05s
+Loading script took 0.80s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4176.60s
+Loading error handling took 0.04s
+Loading script took 0.38s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4238.77s
+Loading error handling took 0.03s
+Loading script took 0.53s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4379.57s
+Loading error handling took 0.04s
+Loading script took 0.47s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4449.44s
+Loading error handling took 0.04s
+Loading script took 0.39s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4472.44s
+Loading error handling took 0.04s
+Loading script took 0.41s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4501.72s
+Loading error handling took 0.04s
+Loading script took 0.49s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4520.12s
+Loading error handling took 0.03s
+Loading script took 0.33s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.03s
@@ -2245,9 +2304,51 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4559.63s
+Loading error handling took 0.03s
+Loading script took 0.38s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.13s
 
@@ -2260,6 +2361,297 @@ Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
 Version: b'2.1 INTEL-22.5.11'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 4609.72s
+Loading error handling took 0.04s
+Loading script took 0.45s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5089.14s
+Loading error handling took 0.05s
+Loading script took 0.29s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5111.01s
+Loading error handling took 0.04s
+Loading script took 0.19s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5421.43s
+Loading error handling took 0.07s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/tl/german/screens.rpy", line 339, in script
+    old "Sustainopolis"
+  File "/Applications/renpy-8.3.3-sdk/renpy/ast.py", line 2646, in execute
+    renpy.translation.add_string_translation(self.language, self.old, self.new, newloc)
+  File "/Applications/renpy-8.3.3-sdk/renpy/translation/__init__.py", line 594, in add_string_translation
+    stl.add(old, new, newloc)
+  File "/Applications/renpy-8.3.3-sdk/renpy/translation/__init__.py", line 534, in add
+    raise Exception("A translation for \"{}\" already exists at {}:{}.".format(
+Exception: A translation for "Sustainopolis" already exists at game/tl/german/options.rpy:7.
+
+While running game code:
+  File "game/tl/german/screens.rpy", line 339, in script
+    old "Sustainopolis"
+Exception: A translation for "Sustainopolis" already exists at game/tl/german/options.rpy:7.
+DPI scale factor: 1.000000
+Interface start took 0.28s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5444.28s
+Loading error handling took 0.04s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5479.45s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to '/Users/m.khaddage/Library/RenPy/backups/Sustainopolis':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 5497.83s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.15s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel Inc.'"
+Renderer: b'Intel(R) Iris(TM) Plus Graphics 645'
+Version: b'2.1 INTEL-22.5.11'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1440, 900) drawable=(2880, 1800)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1440, 847) drawable=(2880, 1694)
 Maximum texture size: 4096x4096

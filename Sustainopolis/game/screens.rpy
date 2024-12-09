@@ -303,13 +303,13 @@ screen navigation():
 
             textbutton _("Start") action Start()
 
-        else:
+        #else:
 
-            textbutton _("History") action ShowMenu("history")
+            #textbutton _("History") action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            #textbutton _("Save") action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        #textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
@@ -559,15 +559,55 @@ screen about():
         style_prefix "about"
 
         vbox:
+            # Add the game logo
+            add "sustainopolis_logo.png" xpos 0.5 ypos 0.2 xanchor 0.5 yanchor 1
+            
+            # Add your game title
+            label "Sustainopolis\n" xalign 0.5 yalign 0.5
+            
+            # Link to the game
+            text _("Play the Game on {a=https://mariebelle.itch.io/sustainopolis/}Itch.io \n{/a} ") 
 
-            label "[config.name!t]"
-            text _("Version [config.version!t]\n")
+            # Overview Section
+            text _("Sustainopolis is an interactive 'choose your own adventure' style game designed to educate players on the United Nations’ 17 Sustainable Development Goals (SDGs)") 
+            text _("Players step into the role of a city leader tasked with shaping the future of a fictional city by making critical policy decisions across three key factors:\n\n- Environmental Sustainability\n- Economic Prosperity\n- Social Equity\n")
+            text _("Each decision dynamically impacts the city’s development and leads to multiple possible outcomes, challenging players to balance competing priorities for a sustainable and prosperous future.\n") 
+            
+            # How to Play Section
+            label "\nHow to Play\n" 
+            text _("- Press on Preferences to choose between German and English. \n- Start the Game: Begin your journey as the leader of Sustainopolis.\n- Make Decisions: Respond to scenarios by selecting from multiple-choice options.\n- Track Scores: Monitor your environmental, economic, and social scores.\n- Balance Goals: Strive for balance while progressing toward sustainability.\n- Explore Outcomes: Discover one of several possible endings.") 
+            
+            # Gameplay Features
+            label "\nGameplay Features\n" 
+            text _("- Engaging Scenarios: Face realistic dilemmas like renewable energy adoption and housing policies.\n- Dynamic Scoring System: Monitor environmental, economic, and social scores (0-100).\n- Educational Moments: Learn through real-world examples and explanations.\n- Multiple Endings: Explore a variety of outcomes based on your decisions.") 
 
-            ## gui.about is usually set in options.rpy.
-            if gui.about:
-                text "[gui.about!t]\n"
+            # SDG Alignment Section
+            label "\nSDG Alignment\n" 
+            text _("While Sustainopolis primarily focuses on SDG 11: Sustainable Cities and Communities, it also addresses:\n- SDG 13: Climate Action\n- SDG 7: Affordable and Clean Energy\n- SDG 9: Industry, Innovation, and Infrastructure\n- SDG 10: Reduced Inequalities\n- SDG 12: Responsible Consumption and Production") 
+            
+           
+            # Acknowledgment
+            label _("\nDesigned by XU university students.") 
+            label _("In partnership with Global Goals für Berlin e.V.")
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+           
+
+            
+
+
+
+
+
+style text:
+    size 18
+    color "#FFFFFF"
+    line_spacing 10
+    xalign 0
+
+
+
+
+
 
 
 style about_label is gui_label
@@ -736,6 +776,10 @@ screen preferences():
     tag menu
 
     use game_menu(_("Preferences"), scroll="viewport"):
+
+        vbox:
+            textbutton "English" action Language(None)  # Changes to English, because that's the main/no translation language
+            textbutton "German" action Language("german")  # Changes to German
 
         vbox:
 
