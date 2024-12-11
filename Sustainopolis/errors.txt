@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 564: Line is indented, but the preceding add statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    xanchor 0.5 yanchor 0.5
-    ^
+File "game/script.rpy", line 15: invalid syntax
+    "female_smiling.png",size=(100,100)
+                              ^
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Mon Dec  9 15:30:56 2024
+Tue Dec 10 13:02:10 2024

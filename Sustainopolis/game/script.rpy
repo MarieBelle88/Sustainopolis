@@ -12,14 +12,12 @@ image bg city_social_env = Transform("city_social_env.jpg", size=(1280, 600), xa
 image bg city_neutral = Transform("city_neutral.jpg", size=(1280, 600), xalign=0.5, yalign=1.0)
 image bg city_neutral = Transform("city_neutral.jpg", size=(1280, 600), xalign=0.5, yalign=1.0)
 
+image female smiling =  Transform("female_smiling.png",size=(600,600))
+
 init:
     # Define the available languages
     $ languages = ["English", "Deutsch"]
 
-# Initialize scores
-default env_sustainability = 50
-default econ_prosperity = 50
-default social_equity = 50
 
 # Define intro music
 define intro_music = "SwitchWithMeTheme.wav"
@@ -27,7 +25,6 @@ define intro_music = "SwitchWithMeTheme.wav"
 # Initialize global variables for reaction message
 default reaction_text = ""
 
-# Dashboard screen with no reaction text
 screen dashboard():
     frame:
         xalign 0.0  # Aligns the dashboard to the left
@@ -37,43 +34,44 @@ screen dashboard():
 
         vbox:
             spacing 10
+            # Dashboard Title
             text "Dashboard" size 22 color "#FFFFFF" xalign 0.5
 
+            # Environmental Sustainability
             text "Environmental Sustainability" size 16 color "#00FF00"
-            hbox:
-                bar value VariableValue("env_sustainability", min=0, max=100) xmaximum 200
-            
+            bar value env_sustainability range 100 xmaximum 200
+
+            # Economic Prosperity
             text "Economic Prosperity" size 16 color "#FFFF00"
-            hbox:
-                bar value VariableValue("econ_prosperity", min=0, max=100) xmaximum 200
-            
+            bar value econ_prosperity range 100 xmaximum 200
+
+            # Social Equity
             text "Social Equity" size 16 color "#FF00FF"
-            hbox:
-                bar value VariableValue("social_equity", min=0, max=100) xmaximum 200
+            bar value social_equity range 100 xmaximum 200
 
-            # Removed the line displaying reaction_text from the dashboard
-            # text reaction_text color "#FFFFFF" size 16
-
-# Function to update scores
+# Function to initialize and update scores
 init python:
-    def update_scores(env=0, econ=0, social=0, reaction_message=""):
-        global env_sustainability, econ_prosperity, social_equity, reaction_text
-        # Update scores
+    # Score Variables
+    env_sustainability = 0
+    econ_prosperity = 0
+    social_equity = 0
+
+    def update_scores(env=0, econ=0, social=0):
+        global env_sustainability, econ_prosperity, social_equity
+
+        # Update scores while ensuring they remain within the 0-100 range
         env_sustainability = max(0, min(100, env_sustainability + env))
         econ_prosperity = max(0, min(100, econ_prosperity + econ))
         social_equity = max(0, min(100, social_equity + social))
-        
-        # Store reaction message
-        reaction_text = reaction_message
 
     def reset_scores():
-        global env_sustainability, econ_prosperity, social_equity, reaction_text
+        global env_sustainability, econ_prosperity, social_equity
+
         # Reset all scores to default values
-        env_sustainability = 50
-        econ_prosperity = 50
-        social_equity = 50
-        reaction_text = ""  # Reset reaction message
-        
+        env_sustainability = 0
+        econ_prosperity = 0
+        social_equity = 0
+      
 
 label start:
     # Reset scores at the start
@@ -82,8 +80,6 @@ label start:
     # Play intro music
     play music intro_music
 
-    
-        
     # Show introduction screen
     "Welcome to Sustainopolis, a city full of promise and potential. As its leader, you face the challenge of building a thriving, sustainable future while balancing competing priorities. Every decision you make will shape the city’s economy, environment, and the lives of its citizens."
     #"Created by the Sustainopolis Team. In partnership with Global Goals"
@@ -99,21 +95,22 @@ label start:
 
 label questions:
     show screen dashboard
+    #show female smiling at right 
     
     # social
     menu:
         "As the city’s leader, you’re facing rising demands for affordable housing. How will you address this challenge while considering sustainability?"
 
         "Implement a green affordable housing initiative. Require all new affordable housing developments to be energy-efficient, using renewable materials and solar panels.":
-            $ update_scores(env=10, econ=-10, social=10)
+            $ update_scores(env=6, econ=-10, social=6)
             "Your initiative reduces long-term energy costs and improves housing quality, but the high upfront expenses strain the city’s budget."
 
         "Encourage private developers to build affordable housing by offering tax breaks, with no green mandates.":
-            $ update_scores(env=-10, econ=15, social=10)
+            $ update_scores(env=-10, econ=15, social=6)
             "The housing shortage eases quickly, but critics worry about the use of unsustainable materials and a lack of long-term benefits."
 
         "Invest in rehabilitating existing buildings into affordable housing. Focus on retrofitting older structures with moderate energy-efficient improvements.":
-            $ update_scores(env=10, econ=-5, social=10)
+            $ update_scores(env=6, econ=-5, social=6)
             "Citizens gain access to affordable housing quickly, while retrofitting helps reduce urban waste. However, the project costs limit broader investments."
 
 
@@ -122,11 +119,11 @@ label questions:
         "Your city has a significant budget surplus this year. How will you allocate the funds?"
 
         "Establish a city fund to attract large corporations and startups with financial incentives.":
-            $ update_scores(env=-5, econ=15, social=10)
+            $ update_scores(env=-15, econ=15, social=6)
             "The city fund attracts major corporations, boosting the local economy and job creation. However, citizens express concern over potential neglect of public services."
 
         "Provide tax relief for middle- and low-income households to stimulate local spending.":
-            $ update_scores(env=0, econ=10, social=15)
+            $ update_scores(env=0, econ=20, social=6)
             "Local businesses thrive as citizens have more disposable income. However, critics argue the city missed an opportunity to invest in long-term development."
 
         "Create a savings reserve for future infrastructure or emergency needs.":
@@ -143,19 +140,19 @@ label questions:
         "Your citizens request more greenery in your city, but land is scarce. What is your course of action?"
 
         "Expand existing parks, renovating them with updated gardens, spaces, and playgrounds.":
-            $ update_scores(env=15, econ=-5, social=10)
+            $ update_scores(env=6, econ=-5, social=6)
             "Improved parks enhance recreational areas without consuming additional land. However, citizens may be concerned about temporary disruptions during renovations."
 
         "Create green urbanism by merging nature with urban living, such as vertical gardens and roof gardens.":
-            $ update_scores(env=15, econ=-8, social=15)
+            $ update_scores(env=6, econ=-5, social=6)
             "Innovative approaches maximize greenery in limited spaces, but infrastructure changes are costly and disruptive."
 
         "Abolish car parks or car-centric areas to repurpose land for new parks.":
-            $ update_scores(env=15, econ=-8, social=10)
+            $ update_scores(env=6, econ=-5, social=6)
             "Converting car-centric areas creates significant green spaces but faces resistance from car owners and causes financial losses."
 
         "Don’t change the situation and focus on other policies.":
-            $ update_scores(env=-10, econ=0, social=-5)
+            $ update_scores(env=-6, econ=0, social=-5)
             "Ignoring the need for greenery worsens environmental issues and frustrates citizens looking for better recreational areas."
 
     # social
@@ -163,11 +160,11 @@ label questions:
         "You’ve been asked to fund a citywide green education initiative aimed at teaching sustainable living practices in schools and communities."
 
         "Fully fund the program. Provide grants for schools, hire sustainability experts, and run public workshops.":
-            $ update_scores(env=15, econ=-10, social=20)
+            $ update_scores(env=6, econ=-10, social=6)
             "The program empowers citizens with knowledge and skills to adopt sustainable practices, but the high cost diverts resources from other projects."
 
         "Partially fund the program. Focus only on schools and limit community outreach efforts to reduce costs.":
-            $ update_scores(env=15, econ=-8, social=15)
+            $ update_scores(env=6, econ=-8, social=6)
             "Schools benefit from the initiative, but limited funding leaves some community groups feeling neglected."
 
         "Reject the initiative. Redirect funds to immediate infrastructure needs instead.":
@@ -180,19 +177,19 @@ label questions:
         "Unemployment is rising in your city due to an economic downturn. What is your strategy to create jobs?"
 
         "Launch a public works program to improve city infrastructure and provide immediate employment.":
-            $ update_scores(env=-5, econ=15, social=15)
+            $ update_scores(env=-5, econ=15, social=6)
             "The program creates jobs quickly and improves infrastructure, but critics warn the increased spending might strain the budget long-term."
 
         "Offer financial incentives to local businesses for hiring more workers.":
-            $ update_scores(env=0, econ=10, social=10)
+            $ update_scores(env=0, econ=6, social=6)
             "Businesses respond by hiring more employees, but the city loses revenue due to the incentives, slowing future growth opportunities."
 
         "Partner with universities and industries to create job training programs.":
-            $ update_scores(env=0, econ=10, social=15)
+            $ update_scores(env=0, econ=6, social=6)
             "Job training programs upskill citizens and improve long-term employment prospects, but critics argue it doesn’t address immediate unemployment."
 
         "Reduce business taxes across the board to stimulate hiring.":
-            $ update_scores(env=-15, econ=10, social=10)
+            $ update_scores(env=-15, econ=6, social=6)
             "Lower taxes encourage businesses to expand, but the reduced revenue limits the city’s ability to fund other services."
 
 
@@ -201,19 +198,19 @@ label questions:
         "Your city has rising air pollution. What is your immediate response?"
 
         "Invest in a fleet of electric public buses.":
-            $ update_scores(env=15, econ=-5, social=10)
+            $ update_scores(env=6, econ=-5, social=6)
             "Electric buses reduce emissions and improve public transit, but the initial investment is costly."
 
         "Introduce car-free zones in key urban areas.":
-            $ update_scores(env=15, econ=-5, social=15)
+            $ update_scores(env=6, econ=-5, social=6)
             "Car-free zones drastically cut emissions and enhance walkability but may hinder access to some businesses."
 
         "Encourage citizens to use public transport with subsidies.":
-            $ update_scores(env=10, econ=-5, social=10)
+            $ update_scores(env=6, econ=-5, social=6)
             "Subsidies make public transport more accessible, reducing car usage but at the cost of city finances."
 
         "Do nothing; pollution isn’t a priority right now.":
-            $ update_scores(env=-20, econ=0, social=-10)
+            $ update_scores(env=-20, econ=0, social=-6)
             "Failing to address pollution worsens environmental and health issues, frustrating citizens."
 
 
@@ -222,15 +219,15 @@ label questions:
         "The city’s public transportation network is limited, causing heavy reliance on private vehicles. How will you address this issue?"
 
         "Invest in an eco-friendly public transportation system. Expand routes and prioritize electric buses and trains.":
-            $ update_scores(env=25, econ=-10, social=15)
+            $ update_scores(env=6, econ=-10, social=6)
             "Your investment significantly improves accessibility and equity, reducing congestion. However, the high cost strains the city’s budget."
 
         "Subsidize electric vehicles (EVs) for private citizens instead. Encourage residents to switch from gas-powered cars.":
-            $ update_scores(env=15, econ=-10, social=5)
+            $ update_scores(env=6, econ=-6, social=5)
             "Wealthier citizens benefit from the subsidies, but the traffic problem persists, leaving low-income communities underserved."
 
         "Encourage carpooling and biking. Launch awareness campaigns and install bike lanes to promote eco-friendly commuting.":
-            $ update_scores(env=15, econ=-5, social=15)
+            $ update_scores(env=6, econ=-5, social=6)
             "The initiative promotes healthy and eco-friendly transportation options, but its moderate impact on traffic limits broad satisfaction."
 
 
@@ -239,7 +236,7 @@ label questions:
         "Your city’s economy depends heavily on one industry that’s becoming unstable. What do you do?"
 
         "Invest in diversifying the economy by promoting other industries like technology and tourism.":
-            $ update_scores(env=0, econ=20, social=10)
+            $ update_scores(env=0, econ=15, social=6)
             "New industries bring innovation and stability to the city’s economy, but critics highlight the high upfront costs of diversification."
 
         "Provide financial aid to stabilize the existing dominant industry.":
@@ -279,15 +276,15 @@ label questions:
         "Residents in certain parts of the city lack reliable access to clean drinking water. What’s your plan to address this issue?"
 
         "Build a sustainable water purification plant. Use renewable energy to power the facility, ensuring long-term access to clean water.":
-            $ update_scores(env=15, econ=-10, social=15)
+            $ update_scores(env=10, econ=-10, social=10)
             "Your investment ensures equitable access to clean water, but critics warn of the high upfront cost and delays in implementation."
 
         "Subsidize water filters for affected households. Provide financial assistance for low-income families to purchase water filters.":
-            $ update_scores(env=5, econ=-10, social=15)
+            $ update_scores(env=5, econ=-10, social=6)
             "Households quickly gain access to clean water, but systemic issues in water quality remain unresolved."
 
         "Enforce stricter industrial regulations. Fine polluting companies and invest in water quality monitoring systems.":
-            $ update_scores(env=15, econ=-5, social=10)
+            $ update_scores(env=6, econ=-5, social=6)
             "Your regulations improve water safety and trust, but some industries express dissatisfaction with the stricter oversight."
 
 
@@ -296,7 +293,7 @@ label questions:
         "A neighboring city offers lower taxes and is luring businesses away. How do you respond?"
 
         "Lower business taxes to match or undercut the neighboring city’s rates.":
-            $ update_scores(env=0, econ=10, social=-5)
+            $ update_scores(env=0, econ=6, social=-5)
             "The lower taxes retain businesses, but the city’s revenue drops, limiting funds for public projects."
 
         "Invest in city infrastructure and amenities to attract businesses despite higher taxes.":
@@ -316,7 +313,7 @@ label questions:
         "A large corporation wants to build a factory in your city, offering jobs but at the cost of potential pollution. Do you approve their plan?"
 
         "Approve with strict environmental regulations.":
-            $ update_scores(env=5, econ=10, social=10)
+            $ update_scores(env=5, econ=10, social=6)
             "The factory brings jobs and economic growth while ensuring minimal environmental impact. However, strict regulations may increase operational costs, reducing the corporation's enthusiasm."
 
         "Approve with minimal restrictions to attract investment.":
@@ -324,7 +321,7 @@ label questions:
             "The factory boosts the economy and creates jobs but increases pollution, leading to potential long-term environmental degradation."
 
         "Reject the proposal outright to protect the environment.":
-            $ update_scores(env=10, econ=-10, social=-5)
+            $ update_scores(env=6, econ=-6, social=-10)
             "The city preserves its natural resources, but citizens miss out on potential job opportunities and economic benefits, causing mixed reactions."
 
     #social
@@ -332,11 +329,11 @@ label questions:
         "Citizens feel excluded from decisions on urban planning and development. How will you address this growing dissatisfaction?"
 
         "Create a citizen advisory board to provide input on major projects.":
-            $ update_scores(env=5, econ=-5, social=20)
+            $ update_scores(env=5, econ=-5, social=6)
             "The advisory board empowers citizens and builds trust, but some developers complain about delays due to extended consultations."
 
         "Launch regular town hall meetings and surveys to collect citizen feedback.":
-            $ update_scores(env=0, econ=0, social=10)
+            $ update_scores(env=0, econ=0, social=6)
             "Citizens appreciate the opportunity to voice their opinions, but the lack of direct influence in decisions limits satisfaction."
 
         "Appoint a single citizen representative to the urban planning committee to streamline feedback.":
@@ -352,15 +349,15 @@ label questions:
         "The city’s income inequality is growing, with the wealthy gaining significantly more than the poor. What do you do?"
 
         "Increase taxes on high-income earners and use the revenue for public services.":
-            $ update_scores(env=0, econ=10, social=15)
+            $ update_scores(env=0, econ=10, social=6)
             "Public services improve, and inequality decreases. However, wealthy individuals and businesses express dissatisfaction and consider relocating."
 
         "Focus on creating affordable access to education and job training for low-income groups.":
-            $ update_scores(env=0, econ=10, social=10)
+            $ update_scores(env=0, econ=10, social=6)
             "Education programs empower citizens and reduce inequality long-term, but the delayed results frustrate some communities."
 
         "Provide direct cash assistance to low-income households.":
-            $ update_scores(env=0, econ=-5, social=15)
+            $ update_scores(env=0, econ=-5, social=6)
             "Households experience immediate relief, improving their quality of life. However, critics question the sustainability of this approach."
 
         "Do nothing, assuming economic growth will eventually trickle down.":
@@ -372,15 +369,15 @@ label questions:
         "Your city faces rising energy demands, but traditional energy sources are environmentally taxing. What is your plan?"
 
         "Invest in renewable energy infrastructure, like solar and wind farms.":
-            $ update_scores(env=15, econ=-20, social=10)
+            $ update_scores(env=6, econ=-8, social=6)
             "Renewable energy ensures a sustainable and clean supply but requires significant upfront investment, delaying short-term economic benefits."
 
         "Encourage citizens to adopt energy-efficient practices with incentives.":
-            $ update_scores(env=10, econ=-10, social=5)
+            $ update_scores(env=6, econ=-6, social=5)
             "Providing incentives encourages responsible energy use, though subsidies strain the city’s financial resources."
 
         "Build new natural gas plants for immediate energy supply.":
-            $ update_scores(env=-5, econ=5, social=10)
+            $ update_scores(env=-5, econ=5, social=6)
             "Natural gas plants meet energy needs quickly and efficiently but contribute to emissions, albeit at a lower rate than coal plants."
 
         "Do nothing and manage with current energy infrastructure.":
@@ -399,8 +396,7 @@ label results:
     
     # Score ranges for areas
     $ low = 50
-    $ medium = 60
-    $ high = 62
+    $ high = 51
     
     # Determine the ending based on scores
     if econ_prosperity >= high and env_sustainability >= high and social_equity >= high:
