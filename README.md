@@ -15,6 +15,16 @@ Each decision dynamically impacts the city’s development and leads to multiple
 
 ---
 
+## **How to Play**  
+1. **Set the language** that you want in **Preferences** **(English or German)**
+2. **Start the Game**: Begin your journey as the leader of Sustainopolis.  
+3. **Make Decisions**: Respond to scenarios by selecting from multiple-choice options.  
+4. **Track Scores**: Monitor your **environmental, economic, and social scores**, updated dynamically after each choice.  
+5. **Balance Goals**: Strive to keep all three scores balanced while progressing toward a sustainable future.  
+6. **Explore Outcomes**: Watch your city evolve as a result of your decisions and discover one of several possible endings.
+
+---
+
 ## **Gameplay Features**  
 - **Engaging Scenarios**: Players face realistic dilemmas such as renewable energy adoption, housing policies, and public transportation, each tied to the SDGs.  
 - **Dynamic Scoring System**: Every choice affects the city’s scores in **environmental, economic, and social dimensions** (ranging from 0 to 100).  
@@ -31,17 +41,10 @@ While **Sustainopolis** focuses primarily on **SDG 11: Sustainable Cities and Co
 - **SDG 10: Reduced Inequalities**  
 - **SDG 12: Responsible Consumption and Production**  
 
----
-
-## **How to Play**  
-1. **Start the Game**: Begin your journey as the leader of Sustainopolis.  
-2. **Make Decisions**: Respond to scenarios by selecting from multiple-choice options.  
-3. **Track Scores**: Monitor your **environmental, economic, and social scores**, updated dynamically after each choice.  
-4. **Balance Goals**: Strive to keep all three scores balanced while progressing toward a sustainable future.  
-5. **Explore Outcomes**: Watch your city evolve as a result of your decisions and discover one of several possible endings.  
 
 
-In partnership with [Global Goals für Berlin e.V.](https://globalgoalsberlin.de/)
+
+Developed by XU university students, in partnership with [Global Goals für Berlin e.V.](https://globalgoalsberlin.de/)
 
 ---
 
